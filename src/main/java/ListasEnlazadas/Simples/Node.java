@@ -3,9 +3,9 @@ package ListasEnlazadas.Simples;
 public class Node<T> {
 
     //Aqui va la relacion al tipo de objeto del cual se creara el nodo, en este caso lo haremos generico.
-    private T data;
+    T data;
     //Se referia asi mismo pero solo al siguiente.
-    private Node next;
+    Node<T> next;
 
     //Constructor
     public Node(T data){
